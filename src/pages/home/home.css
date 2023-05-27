@@ -1,0 +1,6 @@
+.home-box {
+    display: grid;
+    grid-template-columns: 0.8fr 2.2fr;
+    column-gap: 8px;
+    height: 88vh;
+}

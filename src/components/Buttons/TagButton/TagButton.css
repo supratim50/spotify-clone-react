@@ -1,0 +1,11 @@
+.tag-button {
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 200;
+    transition: 0.3s;
+}
+
+.tag-button:hover {
+    background-color: #373737 !important;
+}

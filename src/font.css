@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'SpotifyCeramicThin';
+    src: local('SpotifyCeramicThin'),
+         url('./fonts/Gotham-Thin.otf') format('otf')
+}
+
+@font-face {
+    font-family: 'SpotifyCeramicThinItalic';
+    src: local('SpotifyCeramicThinItalic'),
+         url('./fonts/Gotham-ThinItalic.otf') format('otf')
+}
+
+@font-face {
+    font-family: 'SpotifyCeramicBold';
+    src: local('SpotifyCeramicBold'),
+         url('./fonts/GothamBold.ttf') format('ttf')
+}
+
+@font-face {
+    font-family: 'SpotifyCeramicBoldItalic';
+    src: local('SpotifyCeramicBoldItalic'),
+         url('./fonts/GothamBoldItalic.ttf') format('ttf')
+}
+
+@font-face {
+    font-family: 'SpotifyCeramicLight';
+    src: local('SpotifyCeramicLight'),
+         url('./fonts/GothamLight.ttf') format('ttf')
+}
+
+@font-face {
+    font-family: 'SpotifyCeramicLightItalic';
+    src: local('SpotifyCeramic'),
+         url('./fonts/GothamLightItalic.ttf') format('ttf')
+}
+
+@font-face {
+    font-family: 'SpotifyCeramicMedium';
+    src: local('SpotifyCeramicMedium'),
+         url('./fonts/GothamMedium.ttf') format('ttf')
+}
+
+@font-face {
+    font-family: 'SpotifyCeramicMediumItelic';
+    src: local('SpotifyCeramicMediumItalic'),
+         url('./fonts/GothamMediumItalic.ttf') format('ttf')
+}

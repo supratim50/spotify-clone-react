@@ -1,13 +1,127 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+    font-family: 'SpotifyCeramicMedium';
+    src: url('./fonts/GothamMedium.ttf')
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: SpotifyCeramicMedium;
+}
+
+ul, li {
+    list-style-type: none !important;
+}
+
+body {
+    padding: 8px;
+    background-color: #000000;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.textPrimary {
+    color: #1ED760;
+}
+.bgPrimary {
+    background-color: #1ED760;
+}
+
+.textSecondary {
+    color: #ffffff;
+}
+.textSecondary1 {
+    color: #A4A4A4;
+}
+
+.bgSecondary {
+    background-color: #121212;
+}
+
+.bgSecondary1 {
+    background-color: #2A2A2A;
+}
+
+.textWhite {
+    color: #ffffff;
+}
+
+/* PADDING================= */
+
+.p-1 {
+    padding: 4px;
+}
+.p-2 {
+    padding: 8px;
+}
+.p-3 {
+    padding: 12px;
+}
+.px-1 {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.py-1 {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.px-2 {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.py-2 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.px-3 {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.py-3 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+/* Margin =================== */
+.mt-2 {
+    margin-top: 8px;
+}
+.mr-2 {
+    margin-right: 8px;
+}
+.ml-auto {
+    margin-left: auto;
+}
+/* RADIUS =================== */
+.rounded-2 {
+    border-radius: 8px;
+}
+
+
+/* display ================= */
+.flex {
+    display: flex;
+}
+.flex-column {
+    flex-direction: column;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-evenly {
+    justify-content: space-evenly;
+}
+.align-center {
+    align-items: center;
+}
+.align-start {
+    align-items: start;
+}
+.align-end {
+    align-items: end;
 }
