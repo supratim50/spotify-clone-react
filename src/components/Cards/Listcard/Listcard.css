@@ -1,22 +1,22 @@
 .list-container:hover {
     background-color: #1A1A1A;
 }
+.noHover:hover {
+    background-color: transparent !important; 
+}
 
 .image-container {
     width: 60px;
     height: 60px;
-    border-radius: 50%;
     overflow: hidden;
+}
+.square {
+    border-radius: 4px;
+}
+.circle {
+    border-radius: 50%;
 }
 .image {
     width: 100%;
     object-fit: cover;
-
-}
-
-.title {
-    font-size: 14px;
-}
-.status {
-    font-size: 12px;
 }

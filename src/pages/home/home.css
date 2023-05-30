@@ -3,4 +3,11 @@
     grid-template-columns: 0.8fr 2.2fr;
     column-gap: 8px;
     height: 88vh;
+    max-height: 88vh !important;
+}
+.nav {
+    overflow-y: scroll;
+}
+.nav::-webkit-scrollbar {
+    display: none;
 }

@@ -18,6 +18,19 @@ body {
     background-color: #000000;
 }
 
+.header {
+    font-size: 24px;
+}
+.secondaryHeader {
+    font-size: 14px;
+}
+.secondaryHeader_2 {
+    font-size: 12px;
+}
+.paragraph {
+    font-size: 10px;
+}
+
 .pointer {
     cursor: pointer;
 }
@@ -28,7 +41,6 @@ body {
 .bgPrimary {
     background-color: #1ED760;
 }
-
 .textSecondary {
     color: #ffffff;
 }
@@ -42,10 +54,6 @@ body {
 
 .bgSecondary1 {
     background-color: #2A2A2A;
-}
-
-.textWhite {
-    color: #ffffff;
 }
 
 /* PADDING================= */
@@ -91,6 +99,9 @@ body {
 .mr-2 {
     margin-right: 8px;
 }
+.ml-2 {
+    margin-left: 8px;
+}
 .ml-auto {
     margin-left: auto;
 }
@@ -107,6 +118,9 @@ body {
 .flex-column {
     flex-direction: column;
 }
+.flex-fill {
+    flex: 1;
+}
 .justify-center {
     justify-content: center;
 }
@@ -115,6 +129,12 @@ body {
 }
 .justify-evenly {
     justify-content: space-evenly;
+}
+.justify-start {
+    justify-content: start;
+}
+.justify-end {
+    justify-content: end;
 }
 .align-center {
     align-items: center;

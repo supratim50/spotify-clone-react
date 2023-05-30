@@ -8,7 +8,7 @@ const NavLink = ({icon, text}) => {
     }
 
   return (
-    <li className='textWhite px-3 py-2 flex align-center'>
+    <li className='textSecondary px-3 py-2 flex align-center'>
         <p style={listText}>
             {icon}
         </p>

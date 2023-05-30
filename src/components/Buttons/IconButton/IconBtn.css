@@ -3,9 +3,25 @@
     color: #919191;
     border-radius: 50%;
     background-color: transparent;
+}
+._26 {
+    font-size: 40px;
+}
+._24 {
     font-size: 24px;
+}
+._18 {
+    font-size: 18px;
+}
+._14 {
+    font-size: 14px;
 }
 
 .button:hover {
     background-color: #1A1A1A;
+    color: #ffffff;
+}
+
+.noHover:hover {
+    background-color: transparent !important;
 }

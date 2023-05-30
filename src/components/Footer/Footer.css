@@ -1,0 +1,16 @@
+
+.footer {
+    height: 8vh;
+}
+.song-details {
+    width: 18%;
+    min-width: 220px;
+}
+
+.song-player {
+    width: 40%;
+}
+
+.volumeBox {
+    width: 60%;
+}

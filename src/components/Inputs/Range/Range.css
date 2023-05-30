@@ -1,0 +1,23 @@
+.main_box {
+    position: relative !important;
+}
+
+/* .range_box {
+    position: absolute;
+    height: 5px;
+    border-radius: 4px;
+    background-color: grey;
+    width: 100%;
+    top: 5px;
+    z-index: -1;
+} */
+
+.input {
+    width: 100%;
+    accent-color: #1ED760; 
+    z-index: 2;
+}
+
+.input::-webkit-slider-runnable-track {
+    width: 5px;
+}
